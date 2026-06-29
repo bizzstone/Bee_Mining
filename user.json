@@ -1,0 +1,86 @@
+[  
+   {
+    "WallName": "titah",
+    "minerAddress": "0:4826833e1fb35dd5833d917839e8e72ddd32525969f804309794a9bc376955a2",
+    "publicKey": "e36a4b58a3442af6282f4ed0b77353fe0fa5a0a3d0911e30e32f3b5fd7651fc3",
+    "secretKey": "583c84be7eff5e3f731b7a8bf4f9beaa804f64f66a5820747a93d99f1429cdc1"
+  },
+  {
+    "WallName": "shokhikhatun",
+    "minerAddress": "0:5aeead0c5fe044db59142348aaca2f4a1d504ba01449cc9be28af3d781aa133d",
+    "publicKey": "7ee549e873af3443e6378505d9bf253b67c0bd613a03c984ca06461df6a77b3b",
+    "secretKey": "9928d56174a19d0dfc5462967addf5e14a5d45a44db8f886f32832555895735a"
+  },
+  {
+    "WallName": "x1miazzra",
+    "minerAddress": "0:fc57d14111779b3306156baf8b6cee7e2964d0f9754198fda056f5132a71af22",
+    "publicKey": "88e45d7ef84beba54393aabf73baa7a6e195cd74368217f710dde7595ec639bc",
+    "secretKey": "a902f3983c646445f993aa2cbb3ad6b1655d19ef7e72c74294a3da946d58b213"
+  },
+  {
+    "WallName": "x2nawang",
+    "minerAddress": "0:68817b4191551f33e4bcd02f1626cf60ccf89145f99d489367c083c0367280e6",
+    "publicKey": "ecb793494879d80f61389ac3622930edee84cb73086c5dcfb69c09da9bcb4413",
+    "secretKey": "718d32f7b904e5fbb2b324b11db11bb66d965258425120c877e193678ca39049"
+  },
+  {
+    "WallName": "x3nawang",
+    "minerAddress": "0:ffb6c3161a66a2a2a8c14e0dd5fa56e62bd129fd8f063614da38401bd67bbb5d",
+    "publicKey": "a923a5cf095507862821fcb56fb1bf21ee023476019b4571d509a351d22416c0",
+    "secretKey": "29ab89419fe261daed43a7bf13c86b8de496edee3704309e96141dc5ea3a74e3"
+  },
+  {
+    "WallName": "aanacki",
+    "minerAddress": "0:0e4f79ae29da6de9c761e21e47f1c1d52ef3937fe3012b5ffba238ed627dfab8",
+    "publicKey": "5576291a12809c9163506fa33049e514af23faa56b0237dd23bd66b00db9c2c6",
+    "secretKey": "b7b692d916684a83fc2311aa4143aade0b229873a00ae161a81a9fe933c3afa9"
+  },
+  {
+    "WallName": "aanzobearxd",
+    "minerAddress": "0:41ba5af6ca4b57dacfae14a6b7b23bbe8db9e1bfe8bfebef6abe64c91fb5a776",
+    "publicKey": "b50107b7c8e9458c4cbf4b7064e20d884b29677a8c19ba6b8cc89fdbc730af14",
+    "secretKey": "c32787607d175128c3adf8777fafc18529bd519ab6408c099d4557dff42579b6"
+  },
+  {
+    "WallName": "anisur",
+    "minerAddress": "0:ec7275de2e0a8f5207835538123daea2bc0600fdfb6710ed63e40e97109e8cef",
+    "publicKey": "99ec179f0c16f9a22048f6324b399f18ccc4162799dfc7d7f708fab819a29165",
+    "secretKey": "a19b1020afb634e0a77bcadbe39c5b7528c47996f7b6cd9a34140c60f3500011"
+  },
+  {
+    "WallName": "tanto",
+    "minerAddress": "0:f2e949119f29a91862b15336335ed43eb937d3723597c09be271229a3d909edc",
+    "publicKey": "79e5f7d2f3b3c6dfc803aaa7f16969d59307cf2898fea161dc957183a851201b",
+    "secretKey": "37ddf92c89bffa10bc3e7b6242981df4533acdc4f65da4bab73f03842c130540"
+  },
+  {
+    "WallName": "bweread",
+    "minerAddress": "0:6f313d08301e72a4d3e9416aa6b3b5c4fc05de85d96e9ae343836fd90f2553fa",
+    "publicKey": "e6c53cb3639daa103576192fae57f13a280cc5a6fd02b0140eea5594f962fa7b",
+    "secretKey": "980f766d525ed276362ae8097c31f38eceb44969d5f9f5c92f101e761ea86144"
+  },
+  {
+    "WallName": "read0287",
+    "minerAddress": "0:08f65252abe4904158597f16a9761f7d9463bd0c0771eea38e8ba6d909a0192c",
+    "publicKey": "a3c72cd164260fb542563bc712dc74b6ff87601ac2060b7a49f88451a821afd1",
+    "secretKey": "43583ed850d93a237b09bad938309ae4d306f1e6275e51018600c0b21c0ff7d1"
+  },
+  {
+    "WallName": "binatani",
+    "minerAddress": "0:013a02aaa509e6f7f3c95b824f58514c97dc1e9e2b8326a80c6cb40dac8822ae",
+    "publicKey": "2b8a2221a23defaa60f977fd975c8ca8de35eafaf3b694ec7ede239fdf06a2bb",
+    "secretKey": "6507221ae831eca23270f89f0426033e4e8b7690b15fd71334ae1c8e4dccb638"
+  },
+  {
+    "WallName": "pkkd",
+    "minerAddress": "0:7066144c45e751b1935ca7dc8610bd0216634bfc33a6a8275f4d193015038387",
+    "publicKey": "df28cf3fc7f9e3a48adc36cd946cb9f0a0cda3e42853c59fb4f92847c3aa2809",
+    "secretKey": "7d110dae8cf8653ff1c1f2f5557350c129e7f12dbbfe6b15d64e2efee0f6003c"
+  },
+  {
+    "WallName": "lelantoz",
+    "minerAddress": "0:7e2e8b3a246a7c489714701dc0b79ec31605f80f74959bf6653c1f33df60587d",
+    "publicKey": "c591531dd0ca89f3c017fc52b4a594c667871f14ca3c7ab7a25d47d54603175a",
+    "secretKey": "eb0174f4aa928f2d2991e2fa3e18cad1a12b6b6b4a4ccf861beabcc2cd377c71"
+  }
+]

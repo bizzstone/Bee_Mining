@@ -1,0 +1,12 @@
+{
+  "name": "acki-mining-key-confirmation-fix",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "@teamgosh/bee-sdk": "3.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

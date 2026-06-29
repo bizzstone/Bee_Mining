@@ -1,0 +1,10 @@
+# Mengabaikan folder node_modules
+node_modules/
+SDK/
+
+# Mengabaikan file sensitif lainnya
+.env
+.DS_Store
+dist/
+build/
+npm-debug.log
