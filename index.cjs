@@ -23,7 +23,7 @@ class Account {
     }
 }
 
-const credentialsPath = path.join(__dirname, 'user.json');
+const credentialsPath = path.join(__dirname, './Data/user0.json');
 const accounts = Account.loadFromFile(credentialsPath);
 
 async function getReward(minerInstance) {

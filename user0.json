@@ -66,12 +66,6 @@
     "secretKey": "37ddf92c89bffa10bc3e7b6242981df4533acdc4f65da4bab73f03842c130540"
   },
   {
-    "WallName": "nurnilam",
-    "minerAddress": "0:42fc5a30c56cab84f4669e3f9450859a6a5a68a0bfda535c80424112d493aa72",
-    "publicKey": "f128c5015abe48202823-0e3e84dfee238f87a8c8ef9126cb091cd9459ee8808e",
-    "secretKey": "be0be0b8794a404174d4b590e65bd01c7a01e4fe470517e9d4c0b4633d7553ad"
-  },
-  {
     "WallName": "bweread",
     "minerAddress": "0:6f313d08301e72a4d3e9416aa6b3b5c4fc05de85d96e9ae343836fd90f2553fa",
     "publicKey": "e6c53cb3639daa103576192fae57f13a280cc5a6fd02b0140eea5594f962fa7b",
