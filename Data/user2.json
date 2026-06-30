@@ -1,0 +1,43 @@
+[   
+ {
+    "WallName": "nackldua",
+    "minerAddress": "0:9ae9bf1831c9e34a053f1664c76a0ddc3aed5b4de8171637414f77dba970e272",
+    "publicKey": "cfbe00d0372e6ca38a5d78bad51680c45a56de04710b9d844e60de76ca1eb2c0",
+    "secretKey": "818c3d3f9ead54eac6e802dd9385a179577f753a228f023b030ad673b09d536c"
+  }, 
+  {
+    "WallName": "nackltiga",
+    "minerAddress": "0:7078b5ae07a606ef0991353cf6e40178157bdea9f5fa4d0c8fd66ba5cc868ba5",
+    "publicKey": "a73f123f9090cb725afe45c90d83435705b31cb6f338f11c33ac3fc4d5c3c036",
+    "secretKey": "359e27f16084ae0bd586347d702f67869d0d23cce57fefc5c0f569781fe8f305",
+    "proxy":"http://43.161.239.147:11090"
+  },
+   {
+    "WallName": "nacklempat",
+    "minerAddress": "0:cc102a54f8f14095287b4e4c5fa3bdb3f363e40a1bb305c732a0ff7edf280ab3",
+    "publicKey": "6ed2c1e9fd4f0f29b0aef1c5a2139f640dbaf4861f349d2a78c589b3d03c9a4f",
+    "secretKey": "ac063715fce8c60c958f32cf2c23c58484fd357464b80f5e161dc18cea022160",
+    "proxy":"http://212.58.132.5:8888"
+  },
+   {
+    "WallName": "nackllima",
+    "minerAddress": "0:db0a3ce71a856c1c65885f438f854f180e78a99e051ed18f1feecc7b4341bf94",
+    "publicKey": "4de73c7ab6252c9bb1c9b2c95145976d90023e251499f33d169e77ebd1b9cede",
+    "secretKey": "f4be53876138997bd410f420a7010cfdf303d0d2bfa6cfb34d9f3b67c1a18940",
+    "proxy":"http://72.56.238.99:9090"
+  },
+   {
+    "WallName": "nacklenam",
+    "minerAddress": "0:45095995628f4cce6181b96d435db3c681b7c1affcb9ba90626fa24353b35e75",
+    "publicKey": "2027e6e2c1963454bacec6ad285d11e294a17954b227199024f905428cf61080",
+    "secretKey": "da49a79ec390bbf872222f0ff40e2e38a7d4109f8ff86099af8e041bd77fc47c",
+    "proxy":"http://95.3.69.222:8080"
+  },
+   {
+    "WallName": "nackltujuh",
+    "minerAddress": "0:b508bbd619838b6168b603b1a52198513ebed768ccf4be168a5757cce91f72ab",
+    "publicKey": "d2b51777f3aef3f608da6c5d307c9eb1a439efee542bf0fbb7a0a51b341dfacd",
+    "secretKey": "a73140bda2a1bb19a3855415f69ee37e78ba6622e9c35e1d202672a70be6f101",
+    "proxy":"http://95.3.69.222:8080"
+  }
+]
