@@ -1,32 +1,11 @@
 const { loadBeeSdk } = require("./src/confirmMiningKeys");
 const fs = require('fs');
 const path = require('path');
-const { HttpsProxyAgent } = require('https-proxy-agent');
-
 // Konfigurasi
 const APP_ID = "0x0000000000000000000000000000000000000000000000000000000000000007";
 const ENDPOINTS = ["https://mainnet.ackinacki.org"];
 
-// Fungsi Utility
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
-// Memuat daftar proxy dari file
-function getProxyList() {
-    try {
-        const data = fs.readFileSync(path.join(__dirname, 'proxies.txt'), 'utf8');
-        return data.split(/\r?\n/).map(p => p.trim()).filter(p => p !== "");
-    } catch (e) {
-        console.warn("Tidak ada proxy.txt ditemukan, menjalankan tanpa proxy.");
-        return [];
-    }
-}
-
-const proxyList = getProxyList();
-
-function getRandomProxy() {
-    if (proxyList.length === 0) return null;
-    return proxyList[Math.floor(Math.random() * proxyList.length)];
-}
 
 class Account {
     constructor(WallName, minerAddress, publicKey, secretKey) {
@@ -34,7 +13,6 @@ class Account {
         this.minerAddress = minerAddress;
         this.publicKey = publicKey;
         this.secretKey = secretKey;
-        //this.proxy = getRandomProxy(); // Inisialisasi proxy pertama kali
         this.miner = null;
         this.resolveEpoch = null;
     }
@@ -57,14 +35,8 @@ async function getReward(minerInstance) {
 }
 
 async function startMining(acc) {
-    let shouldSleep = false;
+    let shouldSleep = false; // Flag untuk jeda 2 jam
     let cantap = false;
-    // Mengambil proxy terbaru untuk sesi ini
-    const PROXY_URL ="http://"+ getRandomProxy();
-    const agent = PROXY_URL ? new HttpsProxyAgent(PROXY_URL) : null;
-    
-    console.log(` [${acc.WallName}] Menggunakan PROXY : ${PROXY_URL || 'NONE'}`);
-    
     try {
         const sdk = await loadBeeSdk();
         acc.miner = await sdk.Miner.new(
@@ -73,24 +45,24 @@ async function startMining(acc) {
             acc.minerAddress, 
             acc.publicKey, 
             acc.secretKey,
-            agent ? { agent } : {},
         );
         
-        await sleep(2000);
+        await sleep(3000);
         await getReward(acc.miner);
-        await sleep(2000);
+        await sleep(3000);
 
+        // Pengecekan sebelum mining
         const minerData = await acc.miner.get_miner_data();
         const totalTaps = Number(minerData.tap_sum);
         console.log(` [${acc.WallName}] Current Taps:`, totalTaps);
 
         if (totalTaps >= 12000) {
-            console.log(` [${acc.WallName}] Taps >= 12000. Mempersiapkan jeda 2 jam.`);
+            console.log(` [${acc.WallName}] Taps >= 7000. Mempersiapkan jeda 2 jam.`);
             shouldSleep = true;
-            return;
+            return; // Melompat ke blok finally
         }
 
-        acc.miner.start(330000, (m) => {
+         acc.miner.start(330000, (m) => {
             const blacklist = ["tap_computed", "Read miner events thread"];
             const whitelist = ["submit_session_proof", "submit_session_root", "session_accepted"];
             cantap = true ;
@@ -123,34 +95,31 @@ async function startMining(acc) {
             await sleep(4400);
         }
 
+        console.log(` [${acc.WallName}] 70 Tap selesai. Menunggu sinyal epoch...`);
         await Promise.race([
             new Promise((resolve) => { acc.resolveEpoch = resolve; }),
             sleep(120000).then(() => console.warn("Timeout epoch, melanjutkan..."))
         ]);
 
     } catch (e) {
-        console.error(`Mining Error [${acc.WallName}]:`, e.message);
+        console.error("Mining Error:", e.message);
     } finally {
+        // Membersihkan instance
         if (acc.miner && typeof acc.miner.free === 'function') {
             try { acc.miner.free(); } catch(err) {}
         }
         acc.miner = null;
 
-        // ROTASI PROXY: Ganti proxy setiap kali loop/rekursi
-        if (proxyList.length > 0) {
-            acc.proxy = getRandomProxy();
-            console.log(` [${acc.WallName}] Proxy dirotasi ke: ${acc.proxy}`);
-        }
-
+        // Logika jeda berdasarkan flag
         if (shouldSleep) {
             console.log(` [${acc.WallName}] Memulai jeda 2 jam...`);
-            await sleep(7200000);
+            await sleep(7200000); 
         } else {
             console.log(` [${acc.WallName}] Restarting cycle in 5 seconds...`);
             await sleep(5000);
         }
         
-        startMining(acc); // Rekursi dengan proxy baru
+        startMining(acc); // Rekursi
     }
 }
 
