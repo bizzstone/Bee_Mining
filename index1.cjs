@@ -92,7 +92,7 @@ async function startMining(acc) {
                 const data = await acc.miner.get_miner_data();
                 console.log(` [${acc.WallName}] Total Taps:`, data.tap_sum);
             }
-            await sleep(4400);
+            await sleep(4300);
         }
 
         console.log(` [${acc.WallName}] 70 Tap selesai. Menunggu sinyal epoch...`);
