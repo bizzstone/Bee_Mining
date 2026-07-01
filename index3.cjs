@@ -45,7 +45,7 @@ class Account {
     }
 }
 
-const credentialsPath = path.join(__dirname, 'user3.json');
+const credentialsPath = path.join(__dirname, './Data/user3.json');
 const accounts = Account.loadFromFile(credentialsPath);
 
 async function getReward(minerInstance) {
@@ -58,6 +58,7 @@ async function getReward(minerInstance) {
 
 async function startMining(acc) {
     let shouldSleep = false;
+    let cantap = false;
     // Mengambil proxy terbaru untuk sesi ini
     const PROXY_URL ="http://"+ getRandomProxy();
     const agent = PROXY_URL ? new HttpsProxyAgent(PROXY_URL) : null;
@@ -75,47 +76,51 @@ async function startMining(acc) {
             agent ? { agent } : {},
         );
         
-        await sleep(3000);
+        await sleep(2000);
         await getReward(acc.miner);
-        await sleep(3000);
+        await sleep(2000);
 
         const minerData = await acc.miner.get_miner_data();
         const totalTaps = Number(minerData.tap_sum);
         console.log(` [${acc.WallName}] Current Taps:`, totalTaps);
 
-        if (totalTaps >= 7000) {
-            console.log(` [${acc.WallName}] Taps >= 7000. Mempersiapkan jeda 2 jam.`);
+        if (totalTaps >= 12000) {
+            console.log(` [${acc.WallName}] Taps >= 12000. Mempersiapkan jeda 2 jam.`);
             shouldSleep = true;
             return;
         }
 
-        acc.miner.start(290000, (m) => {
-            const blacklist = ["tap_computed", "Read miner events thread","Error"];
+        acc.miner.start(330000, (m) => {
+            const blacklist = ["tap_computed", "Read miner events thread"];
+            const whitelist = ["submit_session_proof", "submit_session_root", "session_accepted"];
+            cantap = true ;
             if (!blacklist.some(term => m.includes(term))) {
-                if(m.includes("Error")){
-                  console.log(`[ERROR : ${acc.WallName}]`);
-                }else{
-                    console.log(`[${acc.WallName}] [Info]: ${m}`);
-                    if (m.includes("miner_state_corrupted") && acc.resolveEpoch) {
-                        acc.resolveEpoch();
-                        acc.resolveEpoch = null;
-                    }
+                console.log(`[${acc.WallName}] [Info]: ${m}`);
+                if (m.includes("miner_state_corrupted") && acc.resolveEpoch) {
+                    acc.resolveEpoch();
+                    acc.resolveEpoch = null;
                 }
-
             }
+            if (whitelist.some(term => m.includes(term))) {
+                cantap = false ;
+            }
+
         });
 
         await sleep(2000);
         console.log(` [${acc.WallName}] Mining started.`);
 
         for (let i = 1; i <= 70; i++) {
+            if (!cantap) {
+                break; // Keluar dari loop jika tidak bisa menambahkan tap
+            }
             await acc.miner.add_tap(1, 1);
             if (i % 25 === 0){
                 await getReward(acc.miner);
                 const data = await acc.miner.get_miner_data();
                 console.log(` [${acc.WallName}] Total Taps:`, data.tap_sum);
             }
-            await sleep(3800);
+            await sleep(4400);
         }
 
         await Promise.race([
