@@ -1,4 +1,10 @@
-[   
+[  
+  {
+    "WallName": "nacklsatu",
+    "minerAddress": "0:7771533284d7ac31739dc59d7fb6a42d60c51a2d0c32a12f237f30faa54d19b0",
+    "publicKey": "3d79c11487fd7c121ca7ca5d9b0cb4bbca3f9c3d978eecc5b2c9b1c8b933d877",
+    "secretKey": "3e5b3d3bc76a467b9ef1714a5e3a72be3eaa84f46a77a6eef7f2b6cf7eb76fe0"
+  },  
  {
     "WallName": "nackldua",
     "minerAddress": "0:9ae9bf1831c9e34a053f1664c76a0ddc3aed5b4de8171637414f77dba970e272",
@@ -38,6 +44,27 @@
     "minerAddress": "0:b508bbd619838b6168b603b1a52198513ebed768ccf4be168a5757cce91f72ab",
     "publicKey": "d2b51777f3aef3f608da6c5d307c9eb1a439efee542bf0fbb7a0a51b341dfacd",
     "secretKey": "a73140bda2a1bb19a3855415f69ee37e78ba6622e9c35e1d202672a70be6f101",
+    "proxy":"http://95.3.69.222:8080"
+  },
+   {
+    "WallName": "nackldelapan",
+    "minerAddress": "0:15bdea834c7c74442fa16e86f1c3aa002cdd16e8c9a5bf3af1ab4125db17b069",
+    "publicKey": "b8be5456b7296fe39bfb9a90fab3128f9bbda69fbc09be8079872b9d3121bdda",
+    "secretKey": "e8c80baa82763eea8e284b1d5e5baed67c80fafeae8a7f818640761ff8de7d07",
+    "proxy":"http://95.3.69.222:8080"
+  },
+   {
+    "WallName": "nacklsembilan",
+    "minerAddress": "0:0b87c488a087719a84a5f62b86aea1f041fe7dd4885ac1cfa909287bdee1026b",
+    "publicKey": "989ca6934c29bbedf01399a7892b0f2b938d11db1ed23bf5ffb0cd898ec72256",
+    "secretKey": "19acbe60a152d06f6a174f433585438e759008aed836bccbc430122e2ef62102",
+    "proxy":"http://95.3.69.222:8080"
+  },
+   {
+    "WallName": "nacklsepuluh",
+    "minerAddress": "0:f4853bdc9aebc6e3201f615c1e585d8542d017885345caf3c8d1f07df3764c40",
+    "publicKey": "1bff33a2a0435004a38090498bf3d0686f8df2988eeb60d9073dca4329f0e901",
+    "secretKey": "d2f5edb2bd5af29cc5b7ee96b6a765cc74da66ced2fdeba4a473909fad1f0805",
     "proxy":"http://95.3.69.222:8080"
   }
 ]
