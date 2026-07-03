@@ -48,8 +48,8 @@ async function startMining(acc) {
         );
         
         await sleep(3000);
-        await getReward(acc.miner);
-        await sleep(3000);
+        // await getReward(acc.miner);
+        // await sleep(3000);
 
         // Pengecekan sebelum mining
         const minerData = await acc.miner.get_miner_data();
