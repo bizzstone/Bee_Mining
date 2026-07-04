@@ -1,0 +1,56 @@
+[
+    {
+        "WallName": "eileen",
+        "minerAddress": "0:cf4a285c9ecc3bca3754063cecaa2702bff42f796a5b445b62c91eb3b53fe602",
+        "publicKey": "f85813c6d3ee4a91c43ff71e47defc184f3bb2e047b765eb030a5043338c8f94",
+        "secretKey": "87d91bf4018758c4a39d8a2e93729e2ae6e00fde752a3755a2c1b9e135c57e08"
+    },
+    {
+        "WallName": "kethexower",
+        "minerAddress": "0:361efcff8f009ef50bdb50d035435b2138ba03793d315effc777820a310b58c6",
+        "publicKey": "5a236a2d50629bedeb886d175356c026b9810f0d059fa5a81c5089e27dfb4d01",
+        "secretKey": "1e30a583ce56e12ce9c560a1607135d46d167b0c614c42ea2a4e49b244abf32a"
+    },
+    {
+        "WallName": "ani17",
+        "minerAddress": "0:6b58e065ee217b02c0006ceab1af6eb17cdc88ff0c01a866d9af15f65e418569",
+        "publicKey": "fb0d2ea3c7f931c00d94ff057e1ce823f644e8344a8b07051d4176b6dcaf190d",
+        "secretKey": "fdb22b1ef930dc0154794a03e4b510effe271999bc96cf7905c770b302d937c2"
+    },
+    {
+        "WallName": "popitb1",
+        "minerAddress": "0:4f218b731cda1756707a82a2f27550fe9aa898a0c78f6cd3cbd2bbafaf4e9122",
+        "publicKey": "3b9e6fd6d61fa218d7a24a7220a8e5cbb495bac40a3cf973ae396596b0eb1a17",
+        "secretKey": "4f69fd72a5a6cbd3f0756c3f84ef1345d12af943e97b8f1de8a52cf53638ad8a"
+    },
+    {
+        "WallName": "sandaljpt1",
+        "minerAddress": "0:1ddc8edb060b105925bf1f53761d5f3963e50492855e0486b1c3763cdc666439",
+        "publicKey": "d642710d33c9010bcfe3b941e781e656af44a916e3a970a8c67cef3871158153",
+        "secretKey": "faa1aba55fef90daea47c833a851d9ecd7c38a7aa9ad828b6b7ba00db796e42d"
+    },
+    {
+        "WallName": "sandaljpt",
+        "minerAddress": "0:c4be407215e5d538907de0f813ee4a8792f942d2e161407c9b0fe6b33d105a78",
+        "publicKey": "219b9dcaf702bfbb3fd0459dca162e86d791886f2c7779e2442cf96ed8efe39c",
+        "secretKey": "737d521d7f7e4c338432328e4940879f1bf65512f8a582c4d8eae436cadac684"
+    },
+    {
+        "WallName": "popitb",
+        "minerAddress": "0:f95f05802d37c5da1daa0c80b612c115c2c6d9693f415077159bf4ff48e5ce70",
+        "publicKey": "4158b774f07aae01c467e560f1749d5be0d35325a738549b1baaa7da085bf38e",
+        "secretKey": "bcc4f129cbdd50dabfed19d47f4803f1e09d5d039133eca45942d72f33c9aa3a"
+    },
+    {
+        "WallName": "nurnilam",
+        "minerAddress": "0:42fc5a30c56cab84f4669e3f9450859a6a5a68a0bfda535c80424112d493aa72",
+        "publicKey": "320fe76d90c2753e1cb1e35dc9d8732e35ba99c376703d31f1e6fdb8e712a5a3",
+        "secretKey": "6d3fe91b0820392530efc9c7470533b71ca0335442a715ac2e42a9a70aaa6a80"
+    },
+    {
+        "WallName": "popit11",
+        "minerAddress": "0:e4b944d432fb32fe48722ee544b64782c75d7f2f77832287d7620dec0d75523e",
+        "publicKey": "f184cc30c82270be34efdee685acf464bfc8b3ea1df8ac81706fe795c30b4532",
+        "secretKey": "6310638c12a0ebd1200965f1be625b4a6f3402f5cd8e017864e5e07aeeb8eb32"
+    }
+]
