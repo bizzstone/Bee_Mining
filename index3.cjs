@@ -56,7 +56,7 @@ async function startMining(acc) {
         const totalTaps = Number(minerData.tap_sum);
         console.log(` [${acc.WallName}] Current Taps:`, totalTaps);
 
-        if (totalTaps >= 9000) {
+        if (totalTaps >= 12000) {
             console.log(` [${acc.WallName}] Taps >= 7000. Mempersiapkan jeda 2 jam.`);
             shouldSleep = true;
             return; // Melompat ke blok finally
