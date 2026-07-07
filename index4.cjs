@@ -6,7 +6,7 @@ const APP_ID = "0x00000000000000000000000000000000000000000000000000000000000000
 const ENDPOINTS = ["https://mainnet.ackinacki.org"];
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
+let sdk = null;
 class Account {
     constructor(WallName, minerAddress, publicKey, secretKey) {
         this.WallName = WallName;
@@ -34,6 +34,7 @@ async function getReward(minerInstance) {
     }
 }
 async function getInstace(acc) {
+   sdk = await loadBeeSdk();
     if (acc.miner) acc.miner.free();
         
     const instance = await sdk.Miner.new(
@@ -117,10 +118,10 @@ async function startMining(acc) {
 
     } finally {
         // Membersihkan instance
-        if (acc.miner && typeof acc.miner.free === 'function') {
-            try { acc.miner.free(); } catch(err) {}
-        }
-        acc.miner = null;
+        // if (acc.miner && typeof acc.miner.free === 'function') {
+        //     try { acc.miner.free(); } catch(err) {}
+        // }
+        // acc.miner = null;
 
         // Logika jeda berdasarkan flag
         if (shouldSleep) {
@@ -136,11 +137,12 @@ async function startMining(acc) {
 }
 
 const startAll = async () => {
+    
     for (const account of accounts) {
         console.log(`Memulai mining untuk akun: ${account.WallName}`);
         startMining(account);
         await sleep(5000);
     }
 }
-const sdk = await loadBeeSdk();
+
 startAll();
