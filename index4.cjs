@@ -115,13 +115,14 @@ async function startMining(acc) {
             try { acc.miner.free(); } catch(err) {}
         }
         acc.miner = null;
+         startMining(acc);
 
     } finally {
-        // Membersihkan instance
-        // if (acc.miner && typeof acc.miner.free === 'function') {
-        //     try { acc.miner.free(); } catch(err) {}
-        // }
-        // acc.miner = null;
+
+        if (acc.miner && typeof acc.miner.free === 'function') {
+            try { acc.miner.free(); } catch(err) {}
+        }
+        acc.miner = null;
 
         // Logika jeda berdasarkan flag
         if (shouldSleep) {

@@ -1,0 +1,32 @@
+[
+  {
+    "WallName": "aanacki",
+    "minerAddress": "0:0e4f79ae29da6de9c761e21e47f1c1d52ef3937fe3012b5ffba238ed627dfab8",
+    "publicKey": "5576291a12809c9163506fa33049e514af23faa56b0237dd23bd66b00db9c2c6",
+    "secretKey": "b7b692d916684a83fc2311aa4143aade0b229873a00ae161a81a9fe933c3afa9"
+  },
+  {
+    "WallName": "aanzobearxd",
+    "minerAddress": "0:41ba5af6ca4b57dacfae14a6b7b23bbe8db9e1bfe8bfebef6abe64c91fb5a776",
+    "publicKey": "b50107b7c8e9458c4cbf4b7064e20d884b29677a8c19ba6b8cc89fdbc730af14",
+    "secretKey": "c32787607d175128c3adf8777fafc18529bd519ab6408c099d4557dff42579b6"
+  },
+  {
+    "WallName": "anisur",
+    "minerAddress": "0:ec7275de2e0a8f5207835538123daea2bc0600fdfb6710ed63e40e97109e8cef",
+    "publicKey": "99ec179f0c16f9a22048f6324b399f18ccc4162799dfc7d7f708fab819a29165",
+    "secretKey": "a19b1020afb634e0a77bcadbe39c5b7528c47996f7b6cd9a34140c60f3500011"
+  },
+  {
+    "WallName": "tanto",
+    "minerAddress": "0:f2e949119f29a91862b15336335ed43eb937d3723597c09be271229a3d909edc",
+    "publicKey": "79e5f7d2f3b3c6dfc803aaa7f16969d59307cf2898fea161dc957183a851201b",
+    "secretKey": "37ddf92c89bffa10bc3e7b6242981df4533acdc4f65da4bab73f03842c130540"
+  },
+  {
+    "WallName": "bweread",
+    "minerAddress": "0:6f313d08301e72a4d3e9416aa6b3b5c4fc05de85d96e9ae343836fd90f2553fa",
+    "publicKey": "e6c53cb3639daa103576192fae57f13a280cc5a6fd02b0140eea5594f962fa7b",
+    "secretKey": "980f766d525ed276362ae8097c31f38eceb44969d5f9f5c92f101e761ea86144"
+  }
+]

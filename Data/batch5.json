@@ -1,0 +1,32 @@
+[
+  {
+    "WallName": "putihket",
+    "minerAddress": "0:99cb69af9fbae05e43bb090cf867862816dfd681b4df681012df4f28a78ed518",
+    "publicKey": "2b7a6fe49a4e8ee5ff0ff50f6b2a433232204085bde3838795b4be7f104ff448",
+    "secretKey": "138e23292c6c98a3526f70dcb821278de253a281dd79bfda80413d169a88d4a6"
+  },
+  {
+    "WallName": "butama",
+    "minerAddress": "0:537bdd6dd4e733165f016d3626a6cd4e0ef5a62f69c1f65e75c315c3f3358501",
+    "publicKey": "09c4bd2a2e0068948e87c4b6ccf8efbed8ae8d7635cc8fff52fefd15703d8ca1",
+    "secretKey": "3b9c2b40c01ce0b9ad0f8a63d73955b5931d5cf5c8c0324c8e5cfdfcf5a0b48b"
+  },
+  {
+    "WallName": "ani646",
+    "minerAddress": "0:f01822044dd107b4caab0c5f5be88a956a807094ad383b5847e618ca84c84420",
+    "publicKey": "0223e558d120371643dad7fe22f2a4ae3402503fbaabafe879b3258387a210b8",
+    "secretKey": "7818c1cec65ae5d942a1d23a424c51a9dfadfdf17de870ef80d919c61db6998b"
+  },
+  {
+    "WallName": "ffandi",
+    "minerAddress": "0:5d0a927ea39512a47da26449de4e0e2a312e03c23263d1c41abbf12df50d227a",
+    "publicKey": "49243738a3034651006ba00b540737f652dc3736e539242e95351e03c96908ac",
+    "secretKey": "3ccff44476e1ef4895205952c98a4962e1d73370720ff645d048328fd0692447"
+  },
+  {
+    "WallName": "kurkus",
+    "minerAddress": "0:75ddbbd8e074cf2b3db558ad9039c7805d6c2b4a69505692126d9cd3a53c1e4f",
+    "publicKey": "1e48ed555280bd7950e2bce2666ad2e348d551e814ca2c27a97e8f5decd02f00",
+    "secretKey": "363eef6882659b7d2e1df6d9063518c01f7f093aac55f3153e11a3ff5ca2e974"
+  }
+]

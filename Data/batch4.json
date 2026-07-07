@@ -1,0 +1,32 @@
+[
+  {
+    "WallName": "baca56769",
+    "minerAddress": "0:d4f2a66f9cb2a560efccb0d05f86c718302d426f28b6ce8850fa268dbe706c6f",
+    "publicKey": "b513fe7351794a246e39bc1d5822bee6d53daaa502e0cda4aa9f5661982c808d",
+    "secretKey": "7d4d6b07828e5452b17b933d19af3a8b4498a97b4ee1f1eb7ad2af9c7a58684c"
+  },
+  {
+    "WallName": "rednov94",
+    "minerAddress": "0:6fbc099bb6049a15bb87bc03e2679da172d63458c287b290b96645c059f16e1f",
+    "publicKey": "969a8729edb5f01bde5e4557610b406f6f4572e7aa5040e116feab3891c4361d",
+    "secretKey": "0d978c595a36e3efeb06fbca644c3ce281a0c2e5b4958ac03d7900e64eec5bbb"
+  },
+  {
+    "WallName": "novelb420",
+    "minerAddress": "0:0941958124927a9e3a563dc7dff1bb205cc5f23d11507bf025e9857f137d36f3",
+    "publicKey": "631a70cc435c96477850e7aadd1c155f1aedd48b341e302f710e7de5f02dee6d",
+    "secretKey": "614bf49992862eb9ecb32463a6a728a09313d751b92fb4decf345cfedb939083"
+  },
+  {
+    "WallName": "miftah",
+    "minerAddress": "0:47f15dd9e639193dea4fb05828540484c37fc9437fec1395dcc62a6597e8c26d",
+    "publicKey": "25d10e6c7b6a8407bd76202682024c261d608ee0ed8a290e91eed4d7d68ae6b7",
+    "secretKey": "46ebaba9b1ffbe341be6c340b967bff4288a0b3fe6c757918513961bfe14a837"
+  },
+  {
+    "WallName": "surelen",
+    "minerAddress": "0:be03713e009dab3efce51b46609d2025ce3f97f50093cc94653da54904cbe911",
+    "publicKey": "5bcdc58880bc00bc5567e72ccff877d04b4c3989cdd0cf636d8b7377da34a520",
+    "secretKey": "7f57bd107036fa71257eec97e4c56fe5a6d92d015b232875b6357bdaf1e0dd49"
+  }
+]

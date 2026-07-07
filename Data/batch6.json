@@ -1,0 +1,26 @@
+[
+  {
+    "WallName": "mazzra",
+    "minerAddress": "0:0815c6a56eaa64ed7addf1b2c97504bc4fe92ad66d04aed25da3d5629457a109",
+    "publicKey": "092fbfeefaf1ec879af431381861a6ffe0773b3ce397bc2d3ff6fb64bfbffec4",
+    "secretKey": "57eb582ebb608eaff569cb71f0d2869c767f860b4a463626dd28eb78c1f0e17a"
+  },
+  {
+    "WallName": "eileen97",
+    "minerAddress": "0:46e5203079bd252349625e70969df03ef746965d8298ba903afac33f5fbcb7c6",
+    "publicKey": "96d4c8a5acc844a10271b4934a1789f520bc3b0923fd8c9b15d7dd1400446ce1",
+    "secretKey": "77fbbbbe8fe204166bc2935395da1ab9f22e8141b0b8779dd4a85cd128fb3c69"
+  },
+  {
+    "WallName": "shokhi12",
+    "minerAddress": "0:8428f3ba465a62a01f7bce2cda2d36337f17f4c602f07a92a85f8b17242ad3bb",
+    "publicKey": "63f38d031d80b40312f4b053493ca1d8446287ff42e4936690913789b6043ad9",
+    "secretKey": "4b7c58a0f805aabd00d412d9469d1a300f78c56a05bf0e2701a5f5f055185489"
+  },
+  {
+    "WallName": "therow",
+    "minerAddress": "0:8699961cf02a485fb50d3a886c35b5396b44fc2428b91c36ac9814f446ab2789",
+    "publicKey": "9d5fa61eb3bc53115be76f611f25882a02d3f4e95f033131657812cfd3f49d8c",
+    "secretKey": "9f5327f992c8847a7853f37af898f2b4b0a9a066fe6538804c06151f162f1221"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "WallName": "read0287",
+    "minerAddress": "0:08f65252abe4904158597f16a9761f7d9463bd0c0771eea38e8ba6d909a0192c",
+    "publicKey": "a3c72cd164260fb542563bc712dc74b6ff87601ac2060b7a49f88451a821afd1",
+    "secretKey": "43583ed850d93a237b09bad938309ae4d306f1e6275e51018600c0b21c0ff7d1"
+  },
+  {
+    "WallName": "binatani",
+    "minerAddress": "0:013a02aaa509e6f7f3c95b824f58514c97dc1e9e2b8326a80c6cb40dac8822ae",
+    "publicKey": "2b8a2221a23defaa60f977fd975c8ca8de35eafaf3b694ec7ede239fdf06a2bb",
+    "secretKey": "6507221ae831eca23270f89f0426033e4e8b7690b15fd71334ae1c8e4dccb638"
+  },
+  {
+    "WallName": "pkkd",
+    "minerAddress": "0:7066144c45e751b1935ca7dc8610bd0216634bfc33a6a8275f4d193015038387",
+    "publicKey": "df28cf3fc7f9e3a48adc36cd946cb9f0a0cda3e42853c59fb4f92847c3aa2809",
+    "secretKey": "7d110dae8cf8653ff1c1f2f5557350c129e7f12dbbfe6b15d64e2efee0f6003c"
+  },
+  {
+    "WallName": "lelantoz",
+    "minerAddress": "0:7e2e8b3a246a7c489714701dc0b79ec31605f80f74959bf6653c1f33df60587d",
+    "publicKey": "c591531dd0ca89f3c017fc52b4a594c667871f14ca3c7ab7a25d47d54603175a",
+    "secretKey": "eb0174f4aa928f2d2991e2fa3e18cad1a12b6b6b4a4ccf861beabcc2cd377c71"
+  },
+  {
+    "WallName": "kingjp",
+    "minerAddress": "0:df9af5e9ce358b5a6bab4afb8cc6d887640f3dcd7b5d1eb9ecf3f54961de3ea8",
+    "publicKey": "199e669fbfddc61fabdc80c94cf66d6d2f6c21a184eb4be54dd6240fdea65e5f",
+    "secretKey": "db3e0adfe7e0b1a08cbf541cf4ee1cad147aff605123c62cf29e9b81464743e1"
+  }
+]
