@@ -33,20 +33,27 @@ async function getReward(minerInstance) {
         console.warn("Reward claim skipped:", e.message);
     }
 }
-
+async function getInstace(acc) {
+    if (acc.miner) acc.miner.free();
+        
+    const instance = await sdk.Miner.new(
+        ENDPOINTS, APP_ID, acc.minerAddress, acc.publicKey, acc.secretKey
+    );
+    acc.miner = instance;
+}
 async function startMining(acc) {
     let shouldSleep = false; // Flag untuk jeda 2 jam
     let cantap = false;
     try {
-        const sdk = await loadBeeSdk();
-        acc.miner = await sdk.Miner.new(
-            ENDPOINTS, 
-            APP_ID, 
-            acc.minerAddress, 
-            acc.publicKey, 
-            acc.secretKey,
-        );
-        
+       // const sdk = await loadBeeSdk();
+        // acc.miner = await sdk.Miner.new(
+        //     ENDPOINTS, 
+        //     APP_ID, 
+        //     acc.minerAddress, 
+        //     acc.publicKey, 
+        //     acc.secretKey,
+        // );
+        if(!acc.miner) await getInstace(acc);
         await sleep(3000);
         // await getReward(acc.miner);
         // await sleep(3000);
@@ -57,7 +64,7 @@ async function startMining(acc) {
         console.log(` [${acc.WallName}] Current Taps:`, totalTaps);
 
         if (totalTaps >= 12000) {
-            console.log(` [${acc.WallName}] Taps >= 7000. Mempersiapkan jeda 2 jam.`);
+            console.log(` [${acc.WallName}] Taps >= 12000. Mempersiapkan jeda 2 jam.`);
             shouldSleep = true;
             return; // Melompat ke blok finally
         }
@@ -89,8 +96,8 @@ async function startMining(acc) {
             await acc.miner.add_tap(1, 1);
             if (i % 25 === 0){
                 await getReward(acc.miner);
-                const data = await acc.miner.get_miner_data();
-                console.log(` [${acc.WallName}] Total Taps:`, data.tap_sum);
+               // const data = await acc.miner.get_miner_data();
+                //console.log(` [${acc.WallName}] Total Taps:`, data.tap_sum);
             }
             await sleep(4300);
         }
@@ -103,6 +110,11 @@ async function startMining(acc) {
 
     } catch (e) {
         console.error("Mining Error:", e.message);
+        if (acc.miner && typeof acc.miner.free === 'function') {
+            try { acc.miner.free(); } catch(err) {}
+        }
+        acc.miner = null;
+
     } finally {
         // Membersihkan instance
         if (acc.miner && typeof acc.miner.free === 'function') {
@@ -130,5 +142,5 @@ const startAll = async () => {
         await sleep(5000);
     }
 }
-
+const sdk = await loadBeeSdk();
 startAll();
