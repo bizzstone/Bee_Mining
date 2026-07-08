@@ -1,11 +1,5 @@
 [
   {
-    "WallName": "kingjp",
-    "minerAddress": "0:df9af5e9ce358b5a6bab4afb8cc6d887640f3dcd7b5d1eb9ecf3f54961de3ea8",
-    "publicKey": "199e669fbfddc61fabdc80c94cf66d6d2f6c21a184eb4be54dd6240fdea65e5f",
-    "secretKey": "db3e0adfe7e0b1a08cbf541cf4ee1cad147aff605123c62cf29e9b81464743e1"
-  },
-  {
     "WallName": "baca56769",
     "minerAddress": "0:d4f2a66f9cb2a560efccb0d05f86c718302d426f28b6ce8850fa268dbe706c6f",
     "publicKey": "b513fe7351794a246e39bc1d5822bee6d53daaa502e0cda4aa9f5661982c808d",
