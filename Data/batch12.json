@@ -1,0 +1,32 @@
+[
+  {
+    "WallName": "sabtu",
+    "minerAddress": "0:bca31407481c83cee612b3515f94e63c21daa7c4491e02509fa753841bbc2a40",
+    "publicKey": "c8d7181219aed8ba665457dda45e56dda3012180c79ca205ffd229635d69a8cf",
+    "secretKey": "6c3f3aaa97f16ce3a6c1bcf3ed002469f8b27c57be3c1dbbb22413c522691a95"
+  },
+  {
+    "WallName": "minggu",
+    "minerAddress": "0:4a4bc470af75c0f7484ec42395a9f97de42312cf2212b6be132f3580419903e6",
+    "publicKey": "9992433e2184949ebb068c737fb32b906547b5409e6d328b5d892bc4a1172c02",
+    "secretKey": "5633dd61a500b34636b3a2a6c5dc8ece6a272e1613c3c3904fd3256adaf28b5b"
+  },
+  {
+    "WallName": "prei",
+    "minerAddress": "0:c22b8b7199b5db73e0d125dd1e96f09ee0d0d70df891b13e25565f1aef2a2164",
+    "publicKey": "ddcb042f397ae264840e612a8428e6f84c0c48ecf713ffc8cc728b99bf777232",
+    "secretKey": "65e0074dbc98d74df0122cee2221f2a697cf22ec205281216ba6654beed09348"
+  },
+  {
+    "WallName": "libur",
+    "minerAddress": "0:903b661edfb88aca8a737da98f8d59e99ae4879c19727c3b1b6011ab9d5b4a1b",
+    "publicKey": "69402d61a0aef9fa8f0997517aabae55cd847844fa2d5d06cb52003c63d93951",
+    "secretKey": "96e99b5c197cbfe22837f877c349d073ecef3c734de6974e01a352d6706de931"
+  },
+  {
+    "WallName": "muktitan",
+    "minerAddress": "0:1616d1849c286fd77cec37a8e87f964ab4c82f91b2654fdd45db2183b23ba95b",
+    "publicKey": "009c110baa3df760c7cd73933edb780551332b403d4faa75940a23c98df7ee7d",
+    "secretKey": "a453add433e528a69f265063155aed0d57dd9596ca4c40c459dc892338e18de5"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "WallName": "senin",
+    "minerAddress": "0:7924d0d83fe2bd1f658ac77c318759dae63a5673950452fe6a5489bf32c55bf9",
+    "publicKey": "8a87d63bdcaad7c4b282fe055100b636ad32fc911faf673642cbcbfde9d49e57",
+    "secretKey": "8ca72ad4b967c76051f265c2b1cca41971c7041311b91c82368ccb119bf6fabe"
+  },
+  {
+    "WallName": "selasa",
+    "minerAddress": "0:3bd6f4024bd7dd36a8117d22bfd42f0af0548d8bcc3b0e4b245b5fda5fd72be5",
+    "publicKey": "e6c4c98486b3149f0957fdfd4a8a45f63cfe72b2ae25199332d433c5e3bd3602",
+    "secretKey": "7d12db3ea717a6e27d78f1c0d71f3e53337e7725315dd1dae882db5692d7c9dd"
+  },
+  {
+    "WallName": "kamis",
+    "minerAddress": "0:dedd99804f655b0df28f7cbe137f61f15f38a2e34588a0a28c6a5bdd00ea06af",
+    "publicKey": "8e529987d275312cb76806a5e972cd1375ced383314b9ae74777fea3f160fd49",
+    "secretKey": "fadd3249318e7bb6b0eb140a6e89a2ece93a96d56223a8ce56f2768976477b35"
+  },
+  {
+    "WallName": "jumat",
+    "minerAddress": "0:1aa8792890511eef5ec76d9fae65b03fe7b9298ddb1a2d77fd55b2814a806387",
+    "publicKey": "086ee4e0fcdae8f13b9b574092d8de2d3d43758542f74172846915dad87f7aa9",
+    "secretKey": "c888f13d36f099cfaf6c53ff88ffe1c886745efa8819fe0464e1433b52dfefa4"
+  },
+  {
+    "WallName": "rabu",
+    "minerAddress": "0:4b55116a5f56c536ba2f2150e5ed5bccdbc05d8f576f9a317812906c1010670f",
+    "publicKey": "f61ff05903662592d7c1fda6649c9812978c1818955fb2c87d82ea1ba8cf8d07",
+    "secretKey": "74f2926fead8e03249f737a7ce7c706a01cb570d7163d1f45bbfc98475ac83e3"
+  }
+]

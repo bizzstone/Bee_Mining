@@ -1,0 +1,26 @@
+[
+  {
+    "WallName": "sandaljpt",
+    "minerAddress": "0:c4be407215e5d538907de0f813ee4a8792f942d2e161407c9b0fe6b33d105a78",
+    "publicKey": "219b9dcaf702bfbb3fd0459dca162e86d791886f2c7779e2442cf96ed8efe39c",
+    "secretKey": "737d521d7f7e4c338432328e4940879f1bf65512f8a582c4d8eae436cadac684"
+  },
+  {
+    "WallName": "popitb",
+    "minerAddress": "0:f95f05802d37c5da1daa0c80b612c115c2c6d9693f415077159bf4ff48e5ce70",
+    "publicKey": "4158b774f07aae01c467e560f1749d5be0d35325a738549b1baaa7da085bf38e",
+    "secretKey": "bcc4f129cbdd50dabfed19d47f4803f1e09d5d039133eca45942d72f33c9aa3a"
+  },
+  {
+    "WallName": "nurnilam",
+    "minerAddress": "0:42fc5a30c56cab84f4669e3f9450859a6a5a68a0bfda535c80424112d493aa72",
+    "publicKey": "320fe76d90c2753e1cb1e35dc9d8732e35ba99c376703d31f1e6fdb8e712a5a3",
+    "secretKey": "6d3fe91b0820392530efc9c7470533b71ca0335442a715ac2e42a9a70aaa6a80"
+  },
+  {
+    "WallName": "popit11",
+    "minerAddress": "0:e4b944d432fb32fe48722ee544b64782c75d7f2f77832287d7620dec0d75523e",
+    "publicKey": "f184cc30c82270be34efdee685acf464bfc8b3ea1df8ac81706fe795c30b4532",
+    "secretKey": "6310638c12a0ebd1200965f1be625b4a6f3402f5cd8e017864e5e07aeeb8eb32"
+  }
+]

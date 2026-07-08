@@ -1,0 +1,32 @@
+[
+  {
+    "WallName": "nacklsatu",
+    "minerAddress": "0:7771533284d7ac31739dc59d7fb6a42d60c51a2d0c32a12f237f30faa54d19b0",
+    "publicKey": "3d79c11487fd7c121ca7ca5d9b0cb4bbca3f9c3d978eecc5b2c9b1c8b933d877",
+    "secretKey": "3e5b3d3bc76a467b9ef1714a5e3a72be3eaa84f46a77a6eef7f2b6cf7eb76fe0"
+  },
+  {
+    "WallName": "nackldua",
+    "minerAddress": "0:9ae9bf1831c9e34a053f1664c76a0ddc3aed5b4de8171637414f77dba970e272",
+    "publicKey": "cfbe00d0372e6ca38a5d78bad51680c45a56de04710b9d844e60de76ca1eb2c0",
+    "secretKey": "818c3d3f9ead54eac6e802dd9385a179577f753a228f023b030ad673b09d536c"
+  },
+  {
+    "WallName": "nackltiga",
+    "minerAddress": "0:7078b5ae07a606ef0991353cf6e40178157bdea9f5fa4d0c8fd66ba5cc868ba5",
+    "publicKey": "a73f123f9090cb725afe45c90d83435705b31cb6f338f11c33ac3fc4d5c3c036",
+    "secretKey": "359e27f16084ae0bd586347d702f67869d0d23cce57fefc5c0f569781fe8f305"
+  },
+  {
+    "WallName": "nacklempat",
+    "minerAddress": "0:cc102a54f8f14095287b4e4c5fa3bdb3f363e40a1bb305c732a0ff7edf280ab3",
+    "publicKey": "6ed2c1e9fd4f0f29b0aef1c5a2139f640dbaf4861f349d2a78c589b3d03c9a4f",
+    "secretKey": "ac063715fce8c60c958f32cf2c23c58484fd357464b80f5e161dc18cea022160"
+  },
+  {
+    "WallName": "nackllima",
+    "minerAddress": "0:db0a3ce71a856c1c65885f438f854f180e78a99e051ed18f1feecc7b4341bf94",
+    "publicKey": "4de73c7ab6252c9bb1c9b2c95145976d90023e251499f33d169e77ebd1b9cede",
+    "secretKey": "f4be53876138997bd410f420a7010cfdf303d0d2bfa6cfb34d9f3b67c1a18940"
+  }
+]
