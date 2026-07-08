@@ -176,7 +176,7 @@ async function startMining(acc) {
             await sleep(5000);
         }
         
-        //startMining(acc); // Rekursi
+        startMining(acc); // Rekursi
     }
 }
 // Main loop dengan async/await yang bersih
