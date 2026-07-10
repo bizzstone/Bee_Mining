@@ -105,15 +105,15 @@ async function startMining(acc) {
         );
         
         await sleep(2000);
-        // await getReward(acc.miner);
-        // await sleep(2000);
+        await getReward(acc.miner);
+        await sleep(2000);
 
         // Pengecekan sebelum mining
         const minerData = await acc.miner.get_miner_data();
         const totalTaps = Number(minerData.tap_sum);
         console.log(` [${acc.WallName}] Current Taps:`, totalTaps);
 
-        if (totalTaps >= 12000) {
+        if (totalTaps >= 13000) {
             console.log(` [${acc.WallName}] Taps >= 7000. Mempersiapkan jeda 2 jam.`);
             shouldSleep = true;
             return; // Melompat ke blok finally
