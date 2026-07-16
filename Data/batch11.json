@@ -1,11 +1,5 @@
 [
   {
-    "WallName": "senin",
-    "minerAddress": "0:7924d0d83fe2bd1f658ac77c318759dae63a5673950452fe6a5489bf32c55bf9",
-    "publicKey": "8a87d63bdcaad7c4b282fe055100b636ad32fc911faf673642cbcbfde9d49e57",
-    "secretKey": "8ca72ad4b967c76051f265c2b1cca41971c7041311b91c82368ccb119bf6fabe"
-  },
-  {
     "WallName": "selasa",
     "minerAddress": "0:3bd6f4024bd7dd36a8117d22bfd42f0af0548d8bcc3b0e4b245b5fda5fd72be5",
     "publicKey": "e6c4c98486b3149f0957fdfd4a8a45f63cfe72b2ae25199332d433c5e3bd3602",
@@ -28,5 +22,11 @@
     "minerAddress": "0:4b55116a5f56c536ba2f2150e5ed5bccdbc05d8f576f9a317812906c1010670f",
     "publicKey": "f61ff05903662592d7c1fda6649c9812978c1818955fb2c87d82ea1ba8cf8d07",
     "secretKey": "74f2926fead8e03249f737a7ce7c706a01cb570d7163d1f45bbfc98475ac83e3"
+  },
+  {
+    "WallName": "sabtu",
+    "minerAddress": "0:bca31407481c83cee612b3515f94e63c21daa7c4491e02509fa753841bbc2a40",
+    "publicKey": "c8d7181219aed8ba665457dda45e56dda3012180c79ca205ffd229635d69a8cf",
+    "secretKey": "6c3f3aaa97f16ce3a6c1bcf3ed002469f8b27c57be3c1dbbb22413c522691a95"
   }
 ]

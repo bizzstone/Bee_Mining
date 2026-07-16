@@ -1,11 +1,5 @@
 [
   {
-    "WallName": "nacklsatu",
-    "minerAddress": "0:7771533284d7ac31739dc59d7fb6a42d60c51a2d0c32a12f237f30faa54d19b0",
-    "publicKey": "3d79c11487fd7c121ca7ca5d9b0cb4bbca3f9c3d978eecc5b2c9b1c8b933d877",
-    "secretKey": "3e5b3d3bc76a467b9ef1714a5e3a72be3eaa84f46a77a6eef7f2b6cf7eb76fe0"
-  },
-  {
     "WallName": "nackldua",
     "minerAddress": "0:9ae9bf1831c9e34a053f1664c76a0ddc3aed5b4de8171637414f77dba970e272",
     "publicKey": "cfbe00d0372e6ca38a5d78bad51680c45a56de04710b9d844e60de76ca1eb2c0",
@@ -28,5 +22,11 @@
     "minerAddress": "0:db0a3ce71a856c1c65885f438f854f180e78a99e051ed18f1feecc7b4341bf94",
     "publicKey": "4de73c7ab6252c9bb1c9b2c95145976d90023e251499f33d169e77ebd1b9cede",
     "secretKey": "f4be53876138997bd410f420a7010cfdf303d0d2bfa6cfb34d9f3b67c1a18940"
+  },
+  {
+    "WallName": "nacklenam",
+    "minerAddress": "0:45095995628f4cce6181b96d435db3c681b7c1affcb9ba90626fa24353b35e75",
+    "publicKey": "2027e6e2c1963454bacec6ad285d11e294a17954b227199024f905428cf61080",
+    "secretKey": "da49a79ec390bbf872222f0ff40e2e38a7d4109f8ff86099af8e041bd77fc47c"
   }
 ]

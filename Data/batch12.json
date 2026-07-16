@@ -1,11 +1,5 @@
 [
   {
-    "WallName": "sabtu",
-    "minerAddress": "0:bca31407481c83cee612b3515f94e63c21daa7c4491e02509fa753841bbc2a40",
-    "publicKey": "c8d7181219aed8ba665457dda45e56dda3012180c79ca205ffd229635d69a8cf",
-    "secretKey": "6c3f3aaa97f16ce3a6c1bcf3ed002469f8b27c57be3c1dbbb22413c522691a95"
-  },
-  {
     "WallName": "minggu",
     "minerAddress": "0:4a4bc470af75c0f7484ec42395a9f97de42312cf2212b6be132f3580419903e6",
     "publicKey": "9992433e2184949ebb068c737fb32b906547b5409e6d328b5d892bc4a1172c02",
@@ -28,5 +22,11 @@
     "minerAddress": "0:1616d1849c286fd77cec37a8e87f964ab4c82f91b2654fdd45db2183b23ba95b",
     "publicKey": "009c110baa3df760c7cd73933edb780551332b403d4faa75940a23c98df7ee7d",
     "secretKey": "a453add433e528a69f265063155aed0d57dd9596ca4c40c459dc892338e18de5"
+  },
+  {
+    "WallName": "tanmuk",
+    "minerAddress": "0:23130facb46f2ad5467b77621517e1cd3787776dd4fad91a27d381069f7417b6",
+    "publicKey": "83d705186a4d4a81c79e6d170720859770264efa16d18c2d20b360355e060758",
+    "secretKey": "3a0927cddf390eb8c7cb64490a72a22fb1972eb674dba3232c8825c25f925a91"
   }
 ]

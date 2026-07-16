@@ -1,11 +1,5 @@
 [
   {
-    "WallName": "popit6",
-    "minerAddress": "0:5eea2f839796b3893218fcbb6d2aea65abfcdb069b7f6250d804b7b2c0796782",
-    "publicKey": "80352be19848ed41e279e2da554ac2afb3e28cf54eb8b3536fd25a96324c9b02",
-    "secretKey": "61821ce708d063ff6e7f60e81fa19a64dcb986f6352508d78f60defe2787408c"
-  },
-  {
     "WallName": "popit7",
     "minerAddress": "0:e3dbd09543ccbe89ea07606bcf14fb6d6b5dae1e4e91e2c43fe7aa27e8eb5fe9",
     "publicKey": "5c694325652f60090b57f13e9cc2dac6b7975b5f62c6634459f8c2a2df754c6f",
@@ -28,5 +22,11 @@
     "minerAddress": "0:50536f591ef2c6537841b7b4aaae23e3e3b8bd9071734b55be34a9a4b1b7b696",
     "publicKey": "38e946ad32b7b056396a6b8e34d104c2adcfa85ab3d2af470e2086aecfd73d43",
     "secretKey": "6abb75e891006a3360280fc78bddde5007664a0a294b3f7c5f62a78a8a3ee73a"
+  },
+  {
+    "WallName": "senin",
+    "minerAddress": "0:7924d0d83fe2bd1f658ac77c318759dae63a5673950452fe6a5489bf32c55bf9",
+    "publicKey": "8a87d63bdcaad7c4b282fe055100b636ad32fc911faf673642cbcbfde9d49e57",
+    "secretKey": "8ca72ad4b967c76051f265c2b1cca41971c7041311b91c82368ccb119bf6fabe"
   }
 ]

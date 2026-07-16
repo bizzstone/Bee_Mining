@@ -1,11 +1,5 @@
 [
   {
-    "WallName": "sandaljpt",
-    "minerAddress": "0:c4be407215e5d538907de0f813ee4a8792f942d2e161407c9b0fe6b33d105a78",
-    "publicKey": "219b9dcaf702bfbb3fd0459dca162e86d791886f2c7779e2442cf96ed8efe39c",
-    "secretKey": "737d521d7f7e4c338432328e4940879f1bf65512f8a582c4d8eae436cadac684"
-  },
-  {
     "WallName": "popitb",
     "minerAddress": "0:f95f05802d37c5da1daa0c80b612c115c2c6d9693f415077159bf4ff48e5ce70",
     "publicKey": "4158b774f07aae01c467e560f1749d5be0d35325a738549b1baaa7da085bf38e",
@@ -22,5 +16,17 @@
     "minerAddress": "0:e4b944d432fb32fe48722ee544b64782c75d7f2f77832287d7620dec0d75523e",
     "publicKey": "f184cc30c82270be34efdee685acf464bfc8b3ea1df8ac81706fe795c30b4532",
     "secretKey": "6310638c12a0ebd1200965f1be625b4a6f3402f5cd8e017864e5e07aeeb8eb32"
+  },
+  {
+    "WallName": "sikus",
+    "minerAddress": "0:a2c49eb5426e67ad516e744648446730afa31697ee1e0d4b7d3071f7e9e1591c",
+    "publicKey": "85009962adcdca1e47d9aa34e40e920a01707348d465a9137f96c14782609a97",
+    "secretKey": "0453aea404ac2f13d378fd8d6bf1094d687bf954434c10152ba7cb815d8418a1"
+  },
+  {
+    "WallName": "oyen",
+    "minerAddress": "0:f89c05008b341d0a0c6de80b9d962a2a36de523992469cb029341583a684219e",
+    "publicKey": "8f495e2a63ec411fc093a0ab25538014bf2be540ca5fde38e7f4dc5ab452c3c5",
+    "secretKey": "65044efd2d8e91a157ce375f58acb1674cad4f27693ef2985da6828b32b6bba3"
   }
 ]

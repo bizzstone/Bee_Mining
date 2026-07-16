@@ -1,0 +1,26 @@
+[
+  {
+    "WallName": "effelinna",
+    "minerAddress": "0:7369296c7697929358d465cf019f2fbfde90adeaf4d52693a3d113968b6c84a1",
+    "publicKey": "8d13f5494472709b9209ab716569726e60d1b76ebc283cea9b24e3880ae7da33",
+    "secretKey": "7b55e2ce81e468e53e33035f8a95c73458ed6b719aab70f7efa756a5dc3933be"
+  },
+  {
+    "WallName": "monstar",
+    "minerAddress": "0:603254d0f325938570d315a7922d82e4dae0c241d28e217694ea8f3f9d0d850a",
+    "publicKey": "94de8a376655f7733243955506060d66fdb18aa742fc65c684b342f0bbe21260",
+    "secretKey": "b46ecd19adcc5a800f1b1a2c42bb827df9ccca36cd74a0f625b54b5086cea267"
+  },
+  {
+    "WallName": "soheh",
+    "minerAddress": "0:2e89b6869072c5ff7e646302928115e3f41de3d10ea1992dfa27d6bc6de641d6",
+    "publicKey": "73e2bc01f885c4f93ab09fe33d9a4b455d72a30b1c91d217aa3a192990138d7a",
+    "secretKey": "f3ad8f61800aaf6830cec068a2cb984a0e4da488ceea3cdac0fbcf8e98df1d98"
+  },
+  {
+    "WallName": "popit12",
+    "minerAddress": "0:7cb3c4a105046c9436ffcddf5428a2143bc88b9ad573021051649ec9dcb76f1a",
+    "publicKey": "db22ce0cb9638f9061d5a59f1f2f6464c403ba1af2ba1ba1eec9faea94d74481",
+    "secretKey": "06955cbfd05e733ad9244e321225ba85935209835205003f55e6ba59c7c3d447"
+  }
+]
